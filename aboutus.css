@@ -5,6 +5,22 @@ h1{
 }
 
 p{
+ width: 1000px;
  font-family: 'Raleway', sans-serif;
- font-size: 120%
+ font-size: 120%;
+}
+
+body{
+  background-colorL:#E3DEDE
+}
+
+.circle{
+  background-color: #99AAC3;
+  border: 50PX solid #99AAC3;
+  height: 125px;
+  width: 125px;
+  border-radius: 100px;
+  margin-left: 33%;
+  position: relative;
+
 }
