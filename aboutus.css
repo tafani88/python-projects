@@ -1,6 +1,7 @@
 h1{
   font-size: 300%;
   text-align:center;
+  margin-right: 5%;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -8,19 +9,18 @@ p{
  width: 1000px;
  font-family: 'Raleway', sans-serif;
  font-size: 120%;
+ text-align:center;
+ margin-left:10%;
 }
 
 body{
-  background-colorL:#E3DEDE
+  background-color:#E3DEDE
 }
 
-.circle{
-  background-color: #99AAC3;
-  border: 50PX solid #99AAC3;
-  height: 125px;
-  width: 125px;
-  border-radius: 100px;
-  margin-left: 33%;
-  position: relative;
-
+img{
+    border-radius:100px;
+    height:350px;
+    width:475px;
+    margin-bottom:55px;
+    margin-left:390px;
 }
