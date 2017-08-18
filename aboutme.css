@@ -1,0 +1,118 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+
+}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+.topnav {
+   width: 100%;
+   position: fixed;
+   overflow: hidden;
+   background-color: black;
+   z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   z-index: 1;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   background-color: #ffc266;
+   color: black;
+}
+
+/* Creates a Parallax Effect */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    /*background-image: url('https://cdn.pixabay.com/photo/2017/06/30/00/47/amusement-2456905_960_720.jpg');*/
+    background-image: url('https://cdn.pixabay.com/photo/2011/08/03/02/13/balloon-8480_960_720.jpg');
+    background-color: black;
+    min-height: 100%;
+    z-index: -1;
+
+}
+
+.logo{
+background-color: black;
+padding: 15% 22%;
+position: relative;
+font-size: 1.3em;
+max-width: 30%;
+min-height: 160%;
+overflow: hidden;
+z-index:0;
+color: white;
+}
+
+
+.heading{
+text-align: center;
+}
+
+
+.motto{
+  text-align: center;
+  color:orange;
+  font-size: 1.4em;
+}
+
+p{
+  font-size:1.2em;
+}
+
+
+#robotPicsContainer{
+  width: 100%;
+  height: 80%;
+  margin-top: 10%;
+}
+.robotPic1{
+  max-height: 70%;
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+
+.robotPic2{
+  max-height: 70%;
+  position: relative;
+  margin-left:20%;
+  display: inline-block;
+  z-index: 0;
+ }
+
+ #reflections{
+   width:100%;
+   padding: 5% 15%;
+ }
+
+ #about{
+   width: 100%;
+   padding: 5% 15%;
+ }
+
+ #projects{
+   width: 100%;
+   padding: 5% 15%;
+ }
